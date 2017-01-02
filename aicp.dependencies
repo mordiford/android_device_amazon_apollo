@@ -1,0 +1,9 @@
+[
+  {
+    "repository": "device_amazon_hdx-common",
+    "target_path": "device/amazon/hdx-common",
+    "branch": "n7.1"
+  }
+]
+
+
