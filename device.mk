@@ -1,7 +1,7 @@
 DEVICE_FOLDER := device/amazon/apollo
 
 # Set dirty regions off
-ADDITIONAL_BUILD_PROPERTIES += \
+PRODUCT_PROPERTY_OVERRIDES += \
 	hwui.render_dirty_regions=false
 
 # Disable ext sdcard
@@ -19,7 +19,7 @@ $(call inherit-product-if-exists, vendor/amazon/adreno-330/adreno-330-vendor.mk)
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 
-ADDITIONAL_BUILD_PROPERTIES += \
+PRODUCT_PROPERTY_OVERRIDES += \
 	ro.qcom.ad=2 \
 	ro.usb.pid=000d \
 	ro.sf.hwrotation=90
