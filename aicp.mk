@@ -13,11 +13,11 @@
 # limitations under the License.
 
 # Inherit device configuration for Kindle Fire
-$(call inherit-product, device/amazon/hdx-common/lineage.mk)
+$(call inherit-product, device/amazon/hdx-common/aicp.mk)
 $(call inherit-product, device/amazon/apollo/full_apollo.mk)
 
 TARGET_SCREEN_WIDTH := 2560
 TARGET_SCREEN_HEIGHT := 1600
 
-PRODUCT_NAME := lineage_apollo
+PRODUCT_NAME := aicp_apollo
 PRODUCT_RELEASE_NAME := KFireHDX

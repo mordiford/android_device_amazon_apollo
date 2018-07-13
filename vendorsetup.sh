@@ -1,2 +1,2 @@
-add_lunch_combo lineage_apollo-userdebug
+add_lunch_combo aicp_apollo-userdebug
 
